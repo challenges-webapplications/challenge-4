@@ -3,6 +3,9 @@
     "message":{
         "title":"Car Brand List",
         "search":"Search for car Brand"
+    },
+    "brand":{
+        "title":"Brand List"
     }
 
 }

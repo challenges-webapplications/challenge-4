@@ -2,6 +2,9 @@
     "message":{
         "title":"Lista de Marcas de Autos",
         "search":"Busca la marca de carros"
+    },
+    "brand":{
+        "title":"Marcas"
     }
 
 }
