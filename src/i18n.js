@@ -1,10 +1,10 @@
-import en from './en.json'
-import es from './es.json'
+import en from './Locale/en.json'
+import es from './Locale/es.json'
 import { createI18n } from 'vue-i18n'
 
 const i18n = createI18n({
-    locale: 'en',
-    fallblackLocale: 'en',
+    locale: 'es',
+    fallblackLocale: 'es',
     messages: {
         en,
         es

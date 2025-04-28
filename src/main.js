@@ -1,10 +1,10 @@
-import './assets/main.css'
 
 import { createApp } from 'vue'
 import App from './App.vue'
 import PrimeVue from 'primevue/config';
 import i18n from './i18n'
 import Aura from '@primeuix/themes/aura';
+import  SelectButton  from 'primevue/selectbutton';
 
 
 
@@ -19,6 +19,6 @@ app.use(PrimeVue, {
     }
 
 });
-
+app.component('select-button', SelectButton);
 app.use(i18n);
 app.mount('#app');
